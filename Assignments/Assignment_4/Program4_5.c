@@ -9,7 +9,7 @@ if(iValue%5 == 0)
 }
 else 
 {
-    printf("Number is not  Divisible by 5");
+    printf("Number is Not  Divisible by 5");
 }
 }
 int main ()
