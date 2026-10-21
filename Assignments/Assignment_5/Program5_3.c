@@ -19,6 +19,10 @@ void DisplayGrade(float fMarks)
    {
     printf("Grade D ");
    }
+   else if (fMarks >100 )
+   {
+    printf("Invalid Marks");
+   }
    else 
    {
     printf("Fail");
