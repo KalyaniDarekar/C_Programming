@@ -1,9 +1,9 @@
 #include <stdio.h>
  void Display(int iNo,int iFrequency)
 {
-    int iCount = 0;
+    int iCnt = 0;
     //writer Updater 
-    for ( iNo = 1; iNo <= iFrequency; iNo++)
+    for ( iCnt = 1; iCnt <= iFrequency; iCnt++)
 {
     printf("%d",iNo);
 
