@@ -10,8 +10,7 @@ void Accept(int iNo)
 int main()
 {
     int iValue= 0;
-  printf("Enter Number ");
-    scanf("%d",&iValue);
+  iValue = 5;
     Accept(iValue);
     return 0 ;
 
