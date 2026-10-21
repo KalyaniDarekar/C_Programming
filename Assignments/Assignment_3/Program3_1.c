@@ -5,7 +5,11 @@ if(iNo <= 0)
 {
     return;
 }
-//logic
+int iCnt = 0;
+for (iCnt = 1; iCnt <=iNo; iCnt++)
+{
+    printf("%d",iCnt*2);
+}
 }
 int main ()
 {
