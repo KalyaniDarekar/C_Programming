@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : ChkVowel
+// Description   : Checks whether a character is a lowercase vowel.
+// Input         : A character
+// Output        : Whether the character is a lowercase vowel
+// Author        : Kalyani Rajendra Darekar
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 
 typedef int BOOL;

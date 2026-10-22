@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : ChecEvenOdd
+// Description   : Displays the given number is Even or Odd
+// Input         : An integer number
+// Output        : Number is Even/Odd
+// Author        :Darekar Kalyani Rajendra
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <stdlib.h>
 

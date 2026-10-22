@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : FindGreater
+// Description   : Displays the greater number from two numbers.
+// Input         : An integer number
+// Output        : Which number is Greater.
+// Author        : Darekar Kalyani Rajendra
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <stdlib.h>
 void FindGreater(int iFirst,int iSecond)

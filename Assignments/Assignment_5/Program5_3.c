@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : DisplayGrade
+// Description   : Displays the grades of the students.
+// Input         : An Marks of student
+// Output        : Grade of student
+// Author        : Darekar Kalyani Rajendra
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 

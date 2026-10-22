@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : CheckCharacterType
+// Description   : Displays the type of the Character.
+// Input         : An char Alphabet.
+// Output        : Display CharacterType.
+// Author        : Darekar Kalyani Rajendra
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <stdlib.h>
 

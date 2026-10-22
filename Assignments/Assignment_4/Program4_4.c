@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : CheckVotingEligibility
+// Description   : Displays the wether person Eligible or not for Voting.
+// Input         : An Age.
+// Output        : Eligible or not.
+// Author        : Darekar Kalyani Rajendra
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <stdlib.h>
 

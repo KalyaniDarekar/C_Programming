@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : ChkEven
+// Description   : Checks whether an integer is even or odd.
+// Input         : An integer
+// Output        : Whether the integer is even or odd
+// Author        : Darekar Kalyani Rajendra
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #define TRUE 1
 #define FALSE 0

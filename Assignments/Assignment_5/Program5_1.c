@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : FindGreatest
+// Description   : Displays the greatest number from 3
+// Input         : An integer number
+// Output        : Which number is Greater
+// Author        : Darekar Kalyani Rajendra
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <stdlib.h>
 void FindGreatest(int iFirst,int iSecond,int iThird)

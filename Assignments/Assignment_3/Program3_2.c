@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : DisplayFactor
+// Description   : Displays 1 and the even factors of an integer.
+// Input         : An integer
+// Output        : 1 and the even factors of the integer
+// Author        : Kalyani Rajendra Darekar
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 void DisplayFactor(int iNo)
 {

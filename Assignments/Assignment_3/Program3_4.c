@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : DisplayConvert
+// Description   : Converts a lowercase letter to uppercase or vice versa.
+// Input         : An alphabetic character
+// Output        : The character with its case converted
+// Author        : Kalyani Rajendra Darekar
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 void DisplayConvert(char cValue)
 {

@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : CheckMultipleDivisibility
+// Description   : Displays the number divisible by 3 & 5 both.
+// Input         : An integer number
+// Output        : Which number is divisible by 3 & 5.
+// Author        : Darekar Kalyani Rajendra
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 
