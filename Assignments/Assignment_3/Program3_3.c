@@ -6,18 +6,18 @@ void DisplayEvenFactor(int iNo)
     {
         iNo = -iNo;
     }
-    for(i = 1; i <=iNo;i++)
+    for(i = 1; i <iNo; i++)
     {
-        if(    &&     )
+        if(( i%2 == 0 )&& ( iNo%i==0  ))
         {
-
+            printf("%d",i);
         }
     }
 }
 int main()
 {
     int iValue = 0;
-    printf("ZEnter number\n");
+    printf("Enter number\n");
     scanf("%d",&iValue);
     DisplayEvenFactor(iValue);
     return 0;

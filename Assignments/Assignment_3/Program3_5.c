@@ -1,35 +1,44 @@
 #include <stdio.h>
-typedef int       ;
-#define TRUE 1  
-#define FALSE 0 
-Void CHKVowel(char   )
+
+typedef int BOOL;
+
+#define TRUE 1
+#define FALSE 0
+
+BOOL CHKVowel(char cChar)
 {
-    if(        )
+    if (cChar == 'a' || cChar == 'A' ||
+        cChar == 'e' || cChar == 'E' ||
+        cChar == 'i' || cChar == 'I' ||
+        cChar == 'o' || cChar == 'O' ||
+        cChar == 'u' || cChar == 'U')
     {
         return TRUE;
-
     }
-    else 
+    else
     {
         return FALSE;
     }
 }
-int main ()
+
+int main()
 {
     char cValue = '\0';
-    BOOl bRet = FALSE ;
-    printf("Enter character \n");
-    scanf("%c",&cValue);
-    bRet =  CHKVowel(cValue);
-    if(bRet ==     )
-    {
-        printf("It is Vowel ");
+    BOOL bRet = FALSE;
 
-    }
-    else 
+    printf("Enter character: \n");
+    scanf(" %c", &cValue);
+
+    bRet = CHKVowel(cValue);
+
+    if (bRet == TRUE)
     {
-        printf("It is not vowel");
+        printf("It is a Vowel\n");
     }
+    else
+    {
+        printf("It is not a Vowel\n");
+    }
+
     return 0;
-
 }

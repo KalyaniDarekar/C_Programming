@@ -1,12 +1,14 @@
 #include <stdio.h>
 void DisplayConvert(char cValue)
 {
-    if (    )
+    if  (cValue >= 'A' && cValue <= 'Z')  
     {
+        cValue = cValue+32;
         printf("%c",cValue);
     }
-    else if (     )
+    else if  (cValue >= 'a' && cValue <= 'z')  
     {
+        cValue = cValue - 32;
         printf("%c",cValue);
     }
 }
