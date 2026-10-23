@@ -28,17 +28,14 @@ void CalculateDiscount(float fAmount)
 
         printf("Payable Amount: %f", fFinalAmount);
     }
-    else if (fAmount > 5000)
+    else  
     {
         fDiscount = ( fAmount * 20 ) / 100;
         fFinalAmount = fAmount - fDiscount;
         
         printf("Payable Amount: %f", fFinalAmount);
     }
-    else
-    {
-        printf("Invalid Amount.");
-    }
+    
 }
 
 int main()

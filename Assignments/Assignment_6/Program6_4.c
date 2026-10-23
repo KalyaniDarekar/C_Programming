@@ -29,7 +29,7 @@ void CheckTriangle(int iSide1, int iSide2, int iSide3)
     }
     else
     {
-        printf("All Sides of Triangle must be positive.");
+        printf("Invalid Input");
     }
 }
 

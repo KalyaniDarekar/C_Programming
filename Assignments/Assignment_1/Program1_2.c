@@ -4,7 +4,7 @@
 // Description   : Displays "Marvellous" five times.
 // Input         : None
 // Output        : The word "Marvellous" five times
-// Author        : Sanskar balasaheb dumbre
+// Author        : Darekar Kalyani Rajendra
 // Date          : 21/10/2026
 //
 // //////////////////////////////////////////////////////////
