@@ -5,7 +5,7 @@
 // Input         : An integer
 // Output        : Odd Numbers up to N
 // Author        : Darekar Kalyani Rajendra
-// Date          : 30/10/2026
+// Date          : 31/10/2026
 //
 // ////////////////////////////////////////////////////////////////
 #include <stdio.h>
