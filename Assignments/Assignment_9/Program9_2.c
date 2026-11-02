@@ -1,6 +1,6 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : Display
+// Function Name :DollarToINR
 // Description   : accept an amount in dollar and display that amount in indian rupees 
 // Input         : amount in doallar
 // Output        : indian rupees
@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-void Display(int iNo)
+void DollarToINR(int iNo)
 {
    int $ = 70;
    int iResult = 0;
@@ -27,6 +27,6 @@ int main()
     int iValue = 0;
     printf("Enter amount :");
     scanf("%d",&iValue);
-    Display(iValue);
+   DollarToINR(iValue);
     return 0;
 }

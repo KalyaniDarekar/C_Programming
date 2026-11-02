@@ -1,32 +1,48 @@
+
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : Display
-// Description   : accept an amount in dollar and display that amount in indian rupees 
-// Input         : amount in doallar
-// Output        : indian rupees
+// Function Name : EvenFactorial
+// Description   : Even factorial of given number
+// Input         : An integer
+// Output        : Even factorial of that integer
 // Author        : Darekar Kalyani Rajendra
 // Date          : 02/10/2026
 //
 // ////////////////////////////////////////////////////////////////
-
 #include <stdio.h>
 
-void Display(int iNo)
+int EvenFactorial(int iNo)
 {
-   int $ = 70;
-   int iResult = 0;
     if (iNo<0)
     {
        iNo=-iNo;
     }
-    iResult = iNo * $;
-    printf("Indian Rupees: %d\n",iResult);
+int iCnt = 0;
+
+    int iFact = 1;
+    for(iCnt=1;iCnt<=iNo;iCnt++)
+    {
+        if (iCnt%2==0)
+        {
+          iFact = iFact*iCnt;
+        }
+       
     }
+    
+
+    return iFact;
+}
+
+
 int main()
 {
-    int iValue = 0;
-    printf("Enter amount :");
+    int iValue = 0 , iRet = 0;
+    printf("Enter  number: ");
     scanf("%d",&iValue);
-    Display(iValue);
+    iRet = EvenFactorial(iValue);
+    printf("Even Factorial of number is :%d",iRet);
+
+
     return 0;
 }
+   
