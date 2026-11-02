@@ -1,0 +1,40 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : Factorial
+// Description   : factorial of given number
+// Input         : An integer
+// Output        : factorial of that integer
+// Author        : Darekar Kalyani Rajendra
+// Date          : 02/10/2026
+//
+// ////////////////////////////////////////////////////////////////
+#include <stdio.h>
+
+int Factorial(int iNo)
+{
+    if (iNo<0)
+    {
+       iNo=-iNo;
+    }
+int iCnt = 0;
+
+    int iFact = 1;
+    for(iCnt=1;iCnt<=iNo;iCnt++)
+    {
+        iFact = iFact*iCnt;
+    }
+    return iFact;
+}
+
+
+int main()
+{
+    int iValue = 0 , iRet = 0;
+    printf("Enter  number: ");
+    scanf("%d",&iValue);
+    iRet = Factorial(iValue);
+    printf("Factorial of number is :%d",iRet);
+
+
+    return 0;
+}
