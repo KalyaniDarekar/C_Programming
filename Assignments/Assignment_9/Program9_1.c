@@ -5,7 +5,7 @@
 // Input         : An integer
 // Output        : times of * and #
 // Author        : Darekar Kalyani Rajendra
-// Date          : 02/10/2026
+// Date          : 02/11/2026
 //
 // ////////////////////////////////////////////////////////////////
 

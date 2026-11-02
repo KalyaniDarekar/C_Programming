@@ -5,7 +5,7 @@
 // Input         : An integer
 // Output        : reverse Table of that integer
 // Author        : Darekar Kalyani Rajendra
-// Date          : 02/10/2026
+// Date          : 02/11/2026
 //
 // ////////////////////////////////////////////////////////////////
 #include <stdio.h>
