@@ -1,35 +1,39 @@
 // ////////////////////////////////////////////////////////////////
 //
 // Function Name : Display
-// Description   : accept Single digit number from user and print it into word
-// Input         : 9
-// Output        : Nine
+// Description   : Print the word of Entered Single DigitNumber.
+// Input         : Integer Number: 5.
+// Output        : Five.
 // Author        : Darekar Kalyani Rajendra
-// Date          : 02/11/2026
+// Date          : 31/10/2026
 //
 // ////////////////////////////////////////////////////////////////
-#include <stdio.h>
 
-void Display (int iNo)
+#include<stdio.h>
+
+void Display(int iNum)
 {
-    if (iNo<0)
-    {
-       iNo=-iNo;
-    }
-    if(iNo>9)
-    {
-      printf("Invalid input");
-    }
-    
-}
+    char *cWord[] = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
 
+    if(iNum < 0)
+    {
+        iNum = -iNum;
+        printf("%s", cWord[iNum]);
+    }
+    else if(iNum >= 0)
+    {
+        printf("%s", cWord[iNum]);
+    }
+}
 
 int main()
 {
     int iValue = 0;
-    printf("Enter single digit number: ");
-    scanf("%d",&iValue);
-    Number(iValue);
+
+    printf("Enter Single Digit Number (-9 to 9):");
+    scanf("%d", &iValue);
+
+    Display(iValue);
 
     return 0;
 }
