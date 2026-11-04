@@ -11,7 +11,7 @@
 
 #include<stdio.h>
 
-int CountFour(int iNo)
+int Count(int iNo)
 {
   int iCount = 0;
   if (iNo < 0)
@@ -39,7 +39,7 @@ int main()
     printf("Enter Number:\n");
     scanf("%d", &iValue);
 
-   iRet =  CountFour(iValue);
+   iRet =  Count(iValue);
     printf("%d\n",iRet);
 
 
