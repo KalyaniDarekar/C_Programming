@@ -1,9 +1,9 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : CountFour
-// Description   : Accept the number from user and count the frequency of 4 in it
-// Input         : Enter Number: 1234
-// Output        : 1
+// Function Name : Count
+// Description   : Accept the number from user and count the frequency of digit which are less than 6
+// Input         : Enter Number: 1278
+// Output        : 2
 // Author        : Darekar Kalyani Rajendra
 // Date          : 04/11/2026
 //

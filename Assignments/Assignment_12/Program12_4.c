@@ -21,7 +21,7 @@ int CountFour(int iNo)
   while (iNo > 0)
   {
     int iDigit = iNo % 10;
-    if (iDigit < 6)
+    if (iDigit == 4)
     {
       iCount++;
     }
