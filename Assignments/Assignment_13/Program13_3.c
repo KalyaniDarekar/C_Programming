@@ -1,6 +1,3 @@
-#include<stdio.h>
-#include<stdlib.h>
-
 ///////////////////////////////////////////////////
 //      
 //     Funtion name :    CountRange
@@ -11,7 +8,8 @@
 //     Date         :    04/11/2026
 // 
 ////////////////////////////////////////////////
-
+#include<stdio.h>
+#include<stdlib.h>
 int CountRange(int iNo)
 {
     int iDigit = 0 ;

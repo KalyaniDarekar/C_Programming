@@ -1,6 +1,3 @@
-#include<stdio.h>
-#include<stdlib.h>
-
 ///////////////////////////////////////////////////
 //      
 //     Funtion name :    CountDiff
@@ -11,6 +8,8 @@
 //     Date         :    04/11/2026
 // 
 ////////////////////////////////////////////////
+#include<stdio.h>
+#include<stdlib.h>
 
 int CountDiff(int iNo)
 {
