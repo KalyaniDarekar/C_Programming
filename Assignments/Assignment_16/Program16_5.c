@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////
 //     Funtion name :    Pattern
 //     Description  :    accept number of rows and column and display below patttern 
-//     Input        :    number of rows and column
+//     Input        :    iRow =3  iCol =4
 //     Output       :    1 2 3 4
 //                       5 6 7 8
 //                       9 10 11 12 
