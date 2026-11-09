@@ -19,20 +19,23 @@ void Pattern(int iRow,int iCol)
     int i = 0, j = 0;
     
   
-      for(i = 2; i<=10 ;i = i+2)
+    for (i = 1; i <= iRow; i++)
+    {
+      for (j = 1; j <= iCol; j++)
       {
-        
-           for (j = 1; j<=iCol; j = j++)
-             {
-                
-                printf("%d\t",i);
-                
-              }
+        if (i % 2 == 0)
+        {
+          printf("%d\t", (j * 2) - 1);
+        }
+        else
+        {
+          printf("%d\t", j * 2);
+        }
                 
         printf("\n\n");
       }
       
-    }
+    }}
        
 int main()
 {

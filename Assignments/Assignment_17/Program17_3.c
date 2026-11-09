@@ -2,10 +2,10 @@
 //     Funtion name :    Pattern
 //     Description  :    accept number of rows and column and display below patttern 
 //     Input        :    iRow =3  iCol =4
-//     Output       :    2 4 6 8 10
-//                       1 3 5 7 9
-//                       2 4 6 8 10
-//                       1 3 5 7 9
+//     Output       :    a b c d e
+//                       1 2 3 4 5
+//                       a b c d e
+//                       1 2 3 4 5
 //     Author       :    Darekar Kalyani Rajendra
 //     Date         :    09/11/2026
 // 
