@@ -7,7 +7,7 @@
 //                       2 4 6 8 10
 //                       1 3 5 7 9
 //     Author       :    Darekar Kalyani Rajendra
-//     Date         :    06/11/2026
+//     Date         :    09/11/2026
 // 
 ////////////////////////////////////////////////
 
@@ -19,7 +19,7 @@ void Pattern(int iRow,int iCol)
     int i = 0, j = 0;
     
   
-      for(i = 2; i<=iRow ;i = i++)
+      for(i = 2; i<=10 ;i = i+2)
       {
         
            for (j = 1; j<=iCol; j = j++)
@@ -41,5 +41,4 @@ int main()
  scanf("%d %d",&iValue1,&iValue2);
  Pattern(iValue1,iValue2);
   return EXIT_SUCCESS;
-}
 }
