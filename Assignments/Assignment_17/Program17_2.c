@@ -19,29 +19,25 @@ void Pattern(int iRow,int iCol)
     int i = 0, j = 0;
     
   
-    for (i = 1; i <= iRow; i++)
-    {
-      for (j = 1; j <= iCol; j++)
+      for(i = 2; i<=iRow ;i = i++)
       {
-        if (i % 2 == 0)
-        {
-          printf("%d\t", (j * 2) - 1);
-        }
-        else
-        {
-          printf("%d\t", j * 2);
-        }
+        
+           for (j = 1; j<=iCol; j = j++)
+             {
+                
+                printf("%d\t",i);
+                
+              }
                 
         printf("\n\n");
       }
       
-    }}
-       
-int main()
+    }
+    int main()
 {
- int iValue1= 0,iValue2;
- printf("Enter Number of Rows and column : \n");
- scanf("%d %d",&iValue1,&iValue2);
- Pattern(iValue1,iValue2);
-  return EXIT_SUCCESS;
-}
+  int iValue1= 0,iValue2;
+  printf("Enter Number of Rows and column : \n");
+  scanf("%d %d",&iValue1,&iValue2);
+  Pattern(iValue1,iValue2);
+    return EXIT_SUCCESS;
+  }
