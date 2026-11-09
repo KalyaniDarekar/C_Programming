@@ -7,7 +7,7 @@
 //                       2 4 6 8 10
 //                       1 3 5 7 9
 //     Author       :    Darekar Kalyani Rajendra
-//     Date         :    06/11/2026
+//     Date         :    09/11/2026
 // 
 ////////////////////////////////////////////////
 
@@ -41,5 +41,4 @@ int main()
  scanf("%d %d",&iValue1,&iValue2);
  Pattern(iValue1,iValue2);
   return EXIT_SUCCESS;
-}
 }
