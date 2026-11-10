@@ -1,11 +1,11 @@
 ///////////////////////////////////////////////////
 //     Funtion name :    Pattern
 //     Description  :    accept number of rows and column and display below patttern 
-//     Input        :    iRow =3  iCol =4
-//     Output       :    2 4 6 8 10
-//                       1 3 5 7 9
-//                       2 4 6 8 10
-//                       1 3 5 7 9
+//     Input        :    iRow =4  iCol =4
+//     Output       :    1 2 3 4
+//                       2 3 4 5
+//                       3 4 5 6
+//                       4 5 6 7
 //     Author       :    Darekar Kalyani Rajendra
 //     Date         :    06/11/2026
 // 
@@ -19,13 +19,13 @@ void Pattern(int iRow,int iCol)
     int i = 0, j = 0;
     
   
-      for(i = 2; i<=iRow ;i = i++)
+      for(i = 1; i<=iRow ;i++)
       {
         
-           for (j = 1; j<=iCol; j = j++)
+           for (j = 1; j<=iCol; j++)
              {
                 
-                printf("%d\t",i);
+                printf("%d\t",i+j-1);
                 
               }
                 
@@ -41,5 +41,4 @@ int main()
  scanf("%d %d",&iValue1,&iValue2);
  Pattern(iValue1,iValue2);
   return EXIT_SUCCESS;
-}
 }

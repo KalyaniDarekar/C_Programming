@@ -1,11 +1,11 @@
 ///////////////////////////////////////////////////
 //     Funtion name :    Pattern
 //     Description  :    accept number of rows and column and display below patttern 
-//     Input        :    iRow =3  iCol =4
-//     Output       :    2 4 6 8 10
-//                       1 3 5 7 9
-//                       2 4 6 8 10
-//                       1 3 5 7 9
+//     Input        :    iRow =5  iCol =5
+//     Output       :    1  2  3  4  5
+//                      -1 -2 -3 -4 -5
+//                       1  2  3  4  5
+//                      -1 -2 -3 -4 -5
 //     Author       :    Darekar Kalyani Rajendra
 //     Date         :    09/11/2026
 // 
@@ -19,13 +19,17 @@ void Pattern(int iRow,int iCol)
     int i = 0, j = 0;
     
   
-      for(i = 2; i<=iRow ;i = i++)
+      for(i = 1; i<=iRow ; i++)
       {
         
-           for (j = 1; j<=iCol; j = j++)
+           for (j = 1; j<=iCol;j++)
              {
-                
-                printf("%d\t",i);
+                if (i%2!=0)
+                {
+                    printf("%d\t",j);
+                }
+                else
+                printf("%d\t",-j);
                 
               }
                 
