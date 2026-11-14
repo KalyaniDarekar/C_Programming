@@ -3,58 +3,49 @@
 //     Funtion name :    Pattern
 //     Description  :    accept number of rows and column and display below patttern 
 //     Input        :    iRow =4  iCol =4
-//     Output       :    * * * *
-//                       * * * #
-//                       * * # #
-//                       * # # #
+//     Output       :    1 2 3 4
+//                       1 * * 4
+//                       1 * * 4
+//                       1 2 3 4
 //     Author       :    Darekar Kalyani Rajendra
-//     Date         :    06/11/2026
+//     Date         :    14/11/2026
 // 
 ////////////////////////////////////////////////
 #include<stdio.h>
-#include<stdlib.h>
 
 void Pattern(int iRow,int iCol)
   {
     int i = 0, j = 0;
-    if(iRow != iCol)
-    {
-      printf("Invalid Input\n");
-      return;
-    }
+   
       for(i = 1; i<= iRow;i++)
       {
         
            for (j = 1; j<=iCol; j++)
              {
-              if(i == j)   // Digonal
+              if ((i == 2 || i ==iRow-1) && (j == 2 || j == iCol-1)) // Digonal
               {
-                 printf("*\t");
+                printf("*\t");
               }
-              else if (i>j)   // Lower Triangle
+              else 
               {
-                printf(" #\t");
+                printf("%d\t", j);
               }
-              else   // Uppper Triangle 
-              {
-                printf(" #\t");
-              }
-              }
-                
-        printf("\n\n");
-      }
-      
+           
+            
+        }
+        printf("\n");
     }
+}
     
 
 int main()
 {
- int iValue1= 0,iValue2;
- printf("Enter Number of Rows: \n");
- scanf("%d",&iValue1);
- printf("Enter Number of Columns: \n");
- scanf("%d",&iValue2);
+    int iValue1 = 0, iValue2 = 0;
 
-Pattern(iValue1,iValue2);
-  return EXIT_SUCCESS;
+    printf("Enter number of rows and columns: ");
+    scanf("%d %d", &iValue1, &iValue2);
+
+    Pattern(iValue1, iValue2);
+
+    return 0;
 }

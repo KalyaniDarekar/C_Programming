@@ -49,12 +49,12 @@ void Pattern(int iRow,int iCol)
 
 int main()
 {
- int iValue1= 0,iValue2;
- printf("Enter Number of Rows: \n");
- scanf("%d",&iValue1);
- printf("Enter Number of Columns: \n");
- scanf("%d",&iValue2);
+    int iValue1 = 0, iValue2 = 0;
 
-Pattern(iValue1,iValue2);
-  return EXIT_SUCCESS;
+    printf("Enter number of rows and columns: ");
+    scanf("%d %d", &iValue1, &iValue2);
+
+    Pattern(iValue1, iValue2);
+
+    return 0;
 }

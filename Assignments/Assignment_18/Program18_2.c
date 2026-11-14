@@ -8,11 +8,10 @@
 //                       * * # #
 //                       * # # #
 //     Author       :    Darekar Kalyani Rajendra
-//     Date         :    06/11/2026
+//     Date         :    14/11/2026
 // 
 ////////////////////////////////////////////////
 #include<stdio.h>
-#include<stdlib.h>
 
 void Pattern(int iRow,int iCol)
   {
@@ -27,34 +26,28 @@ void Pattern(int iRow,int iCol)
         
            for (j = 1; j<=iCol; j++)
              {
-              if(i == j)   // Digonal
-              {
-                 printf("*\t");
-              }
-              else if (i>j)   // Lower Triangle
-              {
-                printf(" #\t");
-              }
-              else   // Uppper Triangle 
-              {
-                printf(" #\t");
-              }
-              }
-                
-        printf("\n\n");
-      }
-      
+            if (j <= (iCol - i + 1))
+            {
+                printf("*\t");
+            }
+            else
+            {
+                printf("#\t");
+            }
+        }
+        printf("\n");
     }
+}
     
 
 int main()
 {
- int iValue1= 0,iValue2;
- printf("Enter Number of Rows: \n");
- scanf("%d",&iValue1);
- printf("Enter Number of Columns: \n");
- scanf("%d",&iValue2);
+    int iValue1 = 0, iValue2 = 0;
 
-Pattern(iValue1,iValue2);
-  return EXIT_SUCCESS;
+    printf("Enter number of rows and columns: ");
+    scanf("%d %d", &iValue1, &iValue2);
+
+    Pattern(iValue1, iValue2);
+
+    return 0;
 }
