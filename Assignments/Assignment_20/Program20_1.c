@@ -21,24 +21,22 @@ void Pattern(int iRow,int iCol)
       printf("Invalid Input\n");
       return;
     }
-      for(i = 1; i<= iRow;i++)
-      {
-        
-           for (j = 1; j<=iCol; j++)
-             {
-            if (j <= (iCol - i + 1))
+      for (i = 1; i <= iRow; i++)
+    {
+        for (j = 1; j <= iCol; j++)
+        {
+            if ((i + j) == (iRow + 1))
             {
-                printf("*\t");
+                printf("#\t");
             }
             else
             {
-                printf("#\t");
+                printf("*\t");
             }
         }
         printf("\n");
     }
 }
-    
 
 int main()
 {
