@@ -5,14 +5,14 @@
 //     Input        :    iRow =4  iCol =4
 //     Output       :    * * * *
 //                       * * *
-//                       * *  
-//                       *
+//                       * * 
+//                       * 
 //     Author       :    Darekar Kalyani Rajendra
-//     Date         :    14/11/2026
+//     Date         :    18/11/2026
 // 
 ////////////////////////////////////////////////
 #include<stdio.h>
-#include<stdlib.h>
+
 
 void Pattern(int iRow,int iCol)
   {
