@@ -2,13 +2,15 @@
 ///////////////////////////////////////////////////
 //     Funtion name :    Pattern
 //     Description  :    accept number of rows and column and display below patttern 
-//     Input        :    iRow =4  iCol =4
-//     Output       :    * * * #
-//                       * * # *
-//                       * # * *
-//                       # * * *
+//     Input        :    iRow =6  iCol =6
+//     Output       :    * * * * * *
+//                       * # # # * *
+//                       *     *   *
+//                       *   *     *
+//                       * *       *
+//                       * * * * * *
 //     Author       :    Darekar Kalyani Rajendra
-//     Date         :    14/11/2026
+//     Date         :    06/11/2026
 // 
 ////////////////////////////////////////////////
 #include<stdio.h>
@@ -26,18 +28,25 @@ void Pattern(int iRow,int iCol)
         
            for (j = 1; j<=iCol; j++)
              {
-            if (j <= (iCol - i + 1))
-            {
+                 if ((i + j) == (iRow + 1))   // Digonal
+                {
+                     printf("*\t");
+                }
+             else if ((i==1 || i == iRow)||(j== 1 || j== iCol) )  
+              {
                 printf("*\t");
+              }
+              else 
+              {
+                printf(" \t");
+              
+              }
             }
-            else
-            {
-                printf("#\t");
-            }
-        }
-        printf("\n");
+                
+        printf("\n\n");
+      }
+      
     }
-}
     
 
 int main()
