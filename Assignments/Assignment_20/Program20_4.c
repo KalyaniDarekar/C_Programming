@@ -5,12 +5,12 @@
 //     Input        :    iRow =6  iCol =6
 //     Output       :    * * * * * *
 //                       * # # # * *
-//                       *     *   *
-//                       *   *     *
-//                       * *       *
+//                       * # # * $ *
+//                       * # * $ $ *
+//                       * * $ $ $ *
 //                       * * * * * *
 //     Author       :    Darekar Kalyani Rajendra
-//     Date         :    06/11/2026
+//     Date         :    18/11/2026
 // 
 ////////////////////////////////////////////////
 #include<stdio.h>
@@ -36,10 +36,14 @@ void Pattern(int iRow,int iCol)
               {
                 printf("*\t");
               }
+              else if ((i + j)< (iRow + 1)) 
+              {
+                printf(" #\t");
+              
+              }
               else 
               {
-                printf(" \t");
-              
+                 printf(" $\t");
               }
             }
                 
