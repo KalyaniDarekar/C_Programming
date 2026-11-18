@@ -2,7 +2,7 @@
 //     Funtion name :    Pattern
 //     Description  :    accept number from user  display below patttern 
 //     Input        :   5
-//     Output       :    A B C D E
+//     Output       :    5 # 4 # 3 # 2 # 1 #
 //                       
 //     Author       :    Darekar Kalyani Rajendra
 //     Date         :    18/11/2026
@@ -11,15 +11,20 @@
 
 #include<stdio.h>
 #include <stdlib.h>
-#include<string.h>
+
 
 void Pattern(int i)
   {
     int iNo = 0;
-    char ch = '\0';
-      for(iNo = 1,ch = 'A'; iNo<= i;iNo++,ch++)
+    
+      for(iNo = 5; iNo>0;iNo--)
       {
-        printf("%c\t",ch);
+        
+        
+          printf("%d\t",iNo );
+          printf("#\t");
+        
+        
       }
                 
         printf("\n\n");
