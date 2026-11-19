@@ -1,23 +1,21 @@
-
-
 ///////////////////////////////////////////////////
-// Function name : countWhite
+// Function name : countChar
 // Description   : Accept string  and character from user 
-//                 display the count of whitespaces
-// Input         : Marvellous Multi
-// Output        : 1
+//                 display the count of that character 
+// Input         : string - kalyani , character - a
+// Output        : 2
 // Author        : Darekar Kalyani Rajendra
-// Date          : 18/11/2026
+// Date          : 19/11/2026
 ///////////////////////////////////////////////////
 #include <stdio.h>
 #include <stdlib.h>
 
-int countWhite(char *str)
+int countChar(char *str,char ch)
 {
 int iCount = 0;
 while(*str != '\0')
 {
-    if(*str == ' ')
+    if(*str == ch)
     {
     iCount++;
    }
@@ -30,12 +28,21 @@ while(*str != '\0')
 
 int main ()
 {
+   
+    char arr[20];
+    char cValue;
     int iRet = 0;
-    char Arr[100]= {'\0'};
-    printf("Enter String :\n");
-    scanf("%[^'\n']s",Arr);
-    iRet = countWhite(Arr);
-    printf("%d",iRet);
+
+
+    printf("Enter string: ");
+    scanf("%[^\n]s", arr);
+
+    printf("Enter character: ");
+    scanf(" %c", &cValue);
+
+    iRet = countChar(arr,cValue);
+    
+    printf("character frequence is : %d",iRet);
 
 
 

@@ -5,7 +5,7 @@
 // Input         : string - Kalyani ,character k 
 // Output        : True
 // Author        : Darekar Kalyani Rajendra
-// Date          : 18/11/2026
+// Date          : 19/11/2026
 ///////////////////////////////////////////////////
 
 #include <stdio.h>
@@ -42,7 +42,7 @@ int main()
 
     printf("Enter character: ");
     scanf(" %c", &cValue);
-    
+
     bRet = ChkChar(arr,cValue);
 
     if(bRet == TRUE)
