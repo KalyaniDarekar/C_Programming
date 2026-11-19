@@ -1,54 +1,50 @@
 ///////////////////////////////////////////////////
-// Function name : LastChar
-// Description   : Accept string  and character from user 
-//                 and return index of first occurance of that character
-// Input         : string- kalyani , character - a
-// Output        : 1
+// Function name : StrRevx
+// Description   : Accept string  and reverse the 
+//                 string
+// Input         : string- kalyani 
+// Output        : inaylak
 // Author        : Darekar Kalyani Rajendra
 // Date          : 19/11/2026
 ///////////////////////////////////////////////////
 #include <stdio.h>
-#include <stdlib.h>
+#include <ctype.h>
+void StrRevx(char *str)
 
-int LastChar(char *str, char ch)
 {
-    int iCount = 0;
-    
+    char *start = str;
+    char *end = str;
+    char temp;
 
-    while(*str != '\0')
+    while(*end != '\0')
     {
-        if(*str == ch)
-        {
-            return iCount;
-                  iCount++; 
-          
-        }
-        iCount++;     
-        str++;
-      
+        end++;
     }
 
-    return -1;
-}
-int main ()
-{
-   
-    char arr[20];
-    char cValue;
-    int iRet = 0;
+    end--;
 
+    while(start < end)
+    {
+        temp = *start;
+        *start = *end;
+        *end = temp;
+
+        start++;
+        end--;
+    }
+}
+
+
+int main()
+{
+    char arr[20];
 
     printf("Enter string: ");
-    scanf("%[^\n]s", arr);
+    scanf("%s[^\n]", arr);
 
-    printf("Enter character: ");
-    scanf(" %c", &cValue);
+    StrRevx(arr);
 
-    iRet = LastChar(arr,cValue);
-    
-    printf("character location is : %d",iRet);
+    printf("Modified string is %s\n", arr);
 
-
-
-    return EXIT_SUCCESS;
+    return 0;
 }
