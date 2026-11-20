@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////
 // Function name : ChkVowel
-// Description   : Accept character from user and 
+// Description   : Accept string from user and 
 //                 check whether it contain vowels or not
 // Input         : kalyani
 // Output        : True
@@ -15,26 +15,27 @@
 
 typedef int BOOL;
 
-BOOL ChkVowel (char *str)
+BOOL ChkVowel(char *str)
 {
-while(*str != '\0')
-{
-if((*str == 'A' || *str == 'E' || *str == 'I' || *str == 'O' || *str == 'U') ||
-(*str == 'a' || *str == 'e' || *str == 'i' || *str == 'o' || *str == 'u'))
-{
-return TRUE;
-}
+    while(*str != '\0')
+    {
+        if((*str == 'A' || *str == 'E' || *str == 'I' || *str == 'O' || *str == 'U') ||
+           (*str == 'a' || *str == 'e' || *str == 'i' || *str == 'o' || *str == 'u'))
+        {
+            return TRUE;
+        }
 
-}
-return FALSE;
+        str++;
+    }
 
+    return FALSE;
 }
 int main()
 {
     
     char arr[20];
     bool bRet = FALSE;
-    
+
     printf("Enter String: ");
     scanf("%[^\'n]s",arr);
 
